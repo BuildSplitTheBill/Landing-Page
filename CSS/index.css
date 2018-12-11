@@ -237,6 +237,11 @@ nav .main-nav-items p {
   font-size: 3rem;
   line-height: 1.2;
 }
+@media (max-width: 700px) {
+  .landing-page header .text-content {
+    display: none;
+  }
+}
 .landing-page header .image-content {
   width: 69%;
 }
@@ -244,6 +249,11 @@ nav .main-nav-items p {
   width: 100%;
   -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+@media (max-width: 700px) {
+  .landing-page header .image-content {
+    display: none;
+  }
 }
 .landing-page .about {
   width: 60%;
@@ -253,8 +263,21 @@ nav .main-nav-items p {
   border-right: 1px solid #5B5B5B;
   text-align: center;
 }
+@media (max-width: 700px) {
+  .landing-page .about {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0;
+    border: none;
+  }
+}
 .landing-page .about h2 {
   margin-bottom: 1.5rem;
+}
+@media (max-width: 700px) {
+  .landing-page .about h2 {
+    font-size: 3.6rem;
+  }
 }
 .landing-page .about p {
   font-size: 2rem;
@@ -271,6 +294,12 @@ nav .main-nav-items p {
 .landing-page .features .feature-image {
   width: 49%;
 }
+@media (max-width: 700px) {
+  .landing-page .features .feature-image {
+    width: 98%;
+    margin: 15px auto;
+  }
+}
 .landing-page .features .feature-image img {
   width: 100%;
 }
@@ -279,8 +308,18 @@ nav .main-nav-items p {
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 700px) {
+  .landing-page .features .feature-blurb {
+    flex-direction: column;
+  }
+}
 .landing-page .features .feature-blurb .feature-text {
   width: 49%;
+}
+@media (max-width: 700px) {
+  .landing-page .features .feature-blurb .feature-text {
+    width: 98%;
+  }
 }
 .landing-page .features .feature-blurb .feature-text h2 {
   margin-bottom: 15px;
@@ -291,6 +330,11 @@ nav .main-nav-items p {
 }
 .landing-page .features .feature-reverse {
   flex-direction: row-reverse;
+}
+@media (max-width: 700px) {
+  .landing-page .features .feature-reverse {
+    flex-direction: column;
+  }
 }
 .landing-page .sign-up h2 {
   margin: 20px auto;
