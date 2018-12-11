@@ -135,6 +135,7 @@ html {
 html,
 body {
   font-family: 'Lato', sans-serif;
+  color: #5B5B5B;
 }
 h1 {
   font-size: 4rem;
@@ -212,7 +213,7 @@ nav p {
   margin: auto;
 }
 .landing-page .features .feature-image {
-  width: 50%;
+  width: 49%;
 }
 .landing-page .features .feature-image img {
   width: 100%;
@@ -223,10 +224,14 @@ nav p {
   align-items: center;
 }
 .landing-page .features .feature-blurb .feature-text {
-  width: 50%;
+  width: 49%;
+}
+.landing-page .features .feature-blurb .feature-text h2 {
+  margin-bottom: 15px;
 }
 .landing-page .features .feature-blurb .feature-text p {
   font-size: 1.8rem;
+  line-height: 1.5;
 }
 .landing-page .features .feature-reverse {
   flex-direction: row-reverse;
