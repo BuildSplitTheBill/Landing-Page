@@ -177,12 +177,15 @@ h3 {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+  position: relative;
+  top: 68px;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #544D55;
+  position: fixed;
   width: 100%;
   z-index: 5;
   color: white;
