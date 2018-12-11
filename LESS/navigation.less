@@ -2,12 +2,36 @@ nav {
     .justify-flex(space-between, center);
     background-color: @button-color;
     position: fixed;
-    // top: 0;
     width: 100%;
     z-index: 5;
     color: white;
     padding: 10px 20px;
-    p {
-        font-size: 3.6rem;
+    .main-nav-items {
+        .justify-flex(center, center);
+        button {
+            background: @button-color;
+            border: 2px solid white;
+            color: white;
+            font-size: 3;
+            font-size: 2.2rem;
+            padding: 9px 20px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        button:hover {
+            color: @button-color;
+            background-color: white;
+            border-color: @button-color;
+        }
+        button:focus {
+            outline: none;
+        }
+        button:active {
+            transform: scale(0.99);
+        }
+        p {
+            margin-left: 15px;
+            font-size: 3.6rem;
+        }
     }
 }

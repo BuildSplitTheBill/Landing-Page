@@ -191,7 +191,34 @@ nav {
   color: white;
   padding: 10px 20px;
 }
-nav p {
+nav .main-nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .main-nav-items button {
+  background: #544D55;
+  border: 2px solid white;
+  color: white;
+  font-size: 3;
+  font-size: 2.2rem;
+  padding: 9px 20px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+nav .main-nav-items button:hover {
+  color: #544D55;
+  background-color: white;
+  border-color: #544D55;
+}
+nav .main-nav-items button:focus {
+  outline: none;
+}
+nav .main-nav-items button:active {
+  transform: scale(0.99);
+}
+nav .main-nav-items p {
+  margin-left: 15px;
   font-size: 3.6rem;
 }
 .landing-page header {
