@@ -1,3 +1,30 @@
+.button-style button {
+  display: block;
+  border: none;
+  margin: auto;
+  text-decoration: none;
+  background: #544D55;
+  color: white;
+  font-size: 2.2rem;
+  padding: 15px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.button-style button:hover,
+.button-style button:focus {
+  background: #6e6570;
+}
+.button-style button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+.button-style button:active {
+  transform: scale(0.99);
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -211,6 +238,9 @@ nav p {
 .landing-page .features {
   width: 90%;
   margin: auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #5B5B5B;
+  margin-bottom: 40px;
 }
 .landing-page .features .feature-image {
   width: 49%;
@@ -235,4 +265,35 @@ nav p {
 }
 .landing-page .features .feature-reverse {
   flex-direction: row-reverse;
+}
+.landing-page .sign-up h2 {
+  margin: 20px auto;
+  text-align: center;
+}
+.landing-page .sign-up button {
+  display: block;
+  border: none;
+  margin: auto;
+  text-decoration: none;
+  background: #544D55;
+  color: white;
+  font-size: 2.2rem;
+  padding: 15px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.landing-page .sign-up button:hover,
+.landing-page .sign-up button:focus {
+  background: #6e6570;
+}
+.landing-page .sign-up button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+.landing-page .sign-up button:active {
+  transform: scale(0.99);
 }

@@ -47,6 +47,9 @@
     .features {
         width: 90%;
         margin: auto;
+        padding-bottom: 40px;
+        border-bottom: 1px solid @font-color;
+        margin-bottom: 40px;
         .feature-image {
             width: 49%;
             img {
@@ -65,9 +68,16 @@
                     line-height: 1.5;
                 }
             }
-        }
+        }// .feature-blurb
         .feature-reverse {
             flex-direction: row-reverse;
         }
+    }// .features
+    .sign-up {
+        h2 {
+            margin: 20px auto;
+            text-align: center;
+        }
+        .button-style();
     }
 }// .landing-page
