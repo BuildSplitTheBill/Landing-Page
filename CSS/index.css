@@ -19,8 +19,7 @@
   background: #6e6570;
 }
 .button-style button:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
+  outline: none;
 }
 .button-style button:active {
   transform: scale(0.99);
@@ -294,8 +293,7 @@ nav p {
   background: #6e6570;
 }
 .landing-page .sign-up button:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
+  outline: none;
 }
 .landing-page .sign-up button:active {
   transform: scale(0.99);
