@@ -224,7 +224,10 @@ nav p {
 }
 .landing-page .about {
   width: 60%;
-  margin: auto;
+  margin: 30px auto;
+  padding: 0 20px;
+  border-left: 1px solid #5B5B5B;
+  border-right: 1px solid #5B5B5B;
   text-align: center;
 }
 .landing-page .about h2 {
@@ -296,4 +299,11 @@ nav p {
 }
 .landing-page .sign-up button:active {
   transform: scale(0.99);
+}
+.landing-page footer {
+  font-size: 1.5rem;
+  padding: 40px 0 20px 0;
+}
+.landing-page footer p {
+  text-align: center;
 }
