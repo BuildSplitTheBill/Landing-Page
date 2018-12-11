@@ -208,7 +208,8 @@ nav p {
   line-height: 2.5rem;
 }
 .landing-page .features {
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 .landing-page .features .feature-image {
   width: 50%;
@@ -220,6 +221,12 @@ nav p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.landing-page .features .feature-blurb .feature-text {
+  width: 50%;
+}
+.landing-page .features .feature-blurb .feature-text p {
+  font-size: 1.8rem;
 }
 .landing-page .features .feature-reverse {
   flex-direction: row-reverse;
