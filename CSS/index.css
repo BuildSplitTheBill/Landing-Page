@@ -244,13 +244,11 @@ nav .main-nav-items p {
   left: -351px;
   width: 350px;
   height: 100vh;
-  /* This give the height 100% of the screen or, '100% of View Height' */
   background-color: #544D55;
   color: white;
   border-left: none;
   border-bottom: none;
   z-index: 9;
-  /* This set the layer level of the element, it has precendence over initial level of 1*/
   transition: all 0.5s;
 }
 .menu ul li {
@@ -411,10 +409,10 @@ nav .main-nav-items p {
 .landing-page .sign-up button:active {
   transform: scale(0.99);
 }
-.landing-page footer {
+footer {
   font-size: 1.5rem;
   padding: 40px 0 20px 0;
 }
-.landing-page footer p {
+footer p {
   text-align: center;
 }
