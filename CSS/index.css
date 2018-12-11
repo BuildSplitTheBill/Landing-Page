@@ -207,3 +207,20 @@ nav p {
   text-align: left;
   line-height: 2.5rem;
 }
+.landing-page .features {
+  width: 100%;
+}
+.landing-page .features .feature-image {
+  width: 50%;
+}
+.landing-page .features .feature-image img {
+  width: 100%;
+}
+.landing-page .features .feature-blurb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.landing-page .features .feature-reverse {
+  flex-direction: row-reverse;
+}
