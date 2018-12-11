@@ -146,10 +146,6 @@ h2 {
 h3 {
   font-size: 2.8rem;
 }
-p {
-  font-size: 1.6rem;
-  line-height: 1.4;
-}
 .container {
   max-width: 1000px;
   width: 100%;
@@ -169,15 +165,20 @@ nav p {
 .landing-page header {
   position: relative;
   display: inline-block;
+  margin-bottom: 25px;
 }
 .landing-page header .text-box {
   position: absolute;
   height: 100%;
   text-align: center;
   width: 100%;
+  z-index: 2;
 }
 .landing-page header .text-box .text-content {
   display: inline-block;
+}
+.landing-page header .text-box .text-content p {
+  font-size: 25px;
 }
 .landing-page header .text-box:before {
   content: '';
@@ -189,4 +190,20 @@ nav p {
   display: block;
   max-width: 100%;
   height: auto;
+  opacity: 0.6;
+  -webkit-clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.landing-page .about {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.landing-page .about h2 {
+  margin-bottom: 1.5rem;
+}
+.landing-page .about p {
+  font-size: 2rem;
+  text-align: left;
+  line-height: 2.5rem;
 }

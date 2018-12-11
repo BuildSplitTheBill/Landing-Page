@@ -2,13 +2,18 @@
     header {
         position: relative;
         display: inline-block;
+        margin-bottom: 25px;
         .text-box {
             position: absolute;    
             height: 100%;
             text-align: center;    
             width: 100%;
+            z-index: 2;
             .text-content {
                 display: inline-block;
+            }
+            .text-content p {
+                font-size: 25px;
             }
         }
         .text-box:before {
@@ -21,7 +26,22 @@
             display: block;
             max-width: 100%;
             height: auto;
+            opacity: 0.6;
+            -webkit-clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+            clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
           }
     }// header
-
+    .about {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        h2 {
+            margin-bottom: 1.5rem;
+        }
+        p {
+            font-size: 2rem;
+            text-align: left;
+            line-height: 2.5rem;
+        }
+    }
 }
