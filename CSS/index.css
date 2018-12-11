@@ -231,6 +231,7 @@ nav .main-nav-items p {
 .menu {
   position: fixed;
   top: 67px;
+  left: -351px;
   width: 350px;
   height: 100vh;
   /* This give the height 100% of the screen or, '100% of View Height' */
@@ -247,6 +248,10 @@ nav .main-nav-items p {
   font-size: 32px;
   padding: 30px 0;
   text-align: center;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
 }
 .menu--open {
   left: 0;
