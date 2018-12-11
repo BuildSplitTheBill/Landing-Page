@@ -1,36 +1,58 @@
 .landing-page {
     header {
-        position: relative;
-        display: inline-block;
-        margin-bottom: 25px;
-        .text-box {
-            position: absolute;    
-            height: 100%;
-            text-align: center;    
-            width: 100%;
-            z-index: 2;
-            .text-content {
-                display: inline-block;
+        .justify-flex(space-around, center);
+        .text-content {
+            width: 29%;
+            h1 {
+                font-weight: 700;
+                font-size: 5rem;
             }
-            .text-content p {
-                font-size: 25px;
+            p {
+                font-size: 3rem;
+                line-height: 1.2;
             }
         }
-        .text-box:before {
-           content: '';
-           display: inline-block;
-           height: 100%;
-           vertical-align: middle;
+        .image-content {
+            width: 69%;
+            img {
+                width: 100%;
+                -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+                 clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+            }
         }
-        img {
-            display: block;
-            max-width: 100%;
-            height: auto;
-            opacity: 0.6;
-            -webkit-clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-            clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-          }
-    }// header
+    }
+    // header {
+    //     position: relative;
+    //     display: inline-block;
+    //     margin-bottom: 25px;
+    //     .text-box {
+    //         position: absolute;    
+    //         height: 100%;
+    //         text-align: center;    
+    //         width: 100%;
+    //         z-index: 2;
+    //         .text-content {
+    //             display: inline-block;
+    //         }
+    //         .text-content p {
+    //             font-size: 25px;
+    //         }
+    //     }
+    //     .text-box:before {
+    //        content: '';
+    //        display: inline-block;
+    //        height: 100%;
+    //        vertical-align: middle;
+    //     }
+    //     img {
+    //         display: block;
+    //         max-width: 100%;
+    //         height: auto;
+    //         opacity: 0.6;
+    //         -webkit-clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    //         clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    //       }
+    // }// header
     .about {
         width: 60%;
         margin: 30px auto;

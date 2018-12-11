@@ -183,7 +183,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #544D55;
-  position: fixed;
   width: 100%;
   z-index: 5;
   color: white;
@@ -193,36 +192,28 @@ nav p {
   font-size: 3.6rem;
 }
 .landing-page header {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.landing-page header .text-box {
-  position: absolute;
-  height: 100%;
-  text-align: center;
+.landing-page header .text-content {
+  width: 29%;
+}
+.landing-page header .text-content h1 {
+  font-weight: 700;
+  font-size: 5rem;
+}
+.landing-page header .text-content p {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.landing-page header .image-content {
+  width: 69%;
+}
+.landing-page header .image-content img {
   width: 100%;
-  z-index: 2;
-}
-.landing-page header .text-box .text-content {
-  display: inline-block;
-}
-.landing-page header .text-box .text-content p {
-  font-size: 25px;
-}
-.landing-page header .text-box:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-.landing-page header img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  opacity: 0.6;
-  -webkit-clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 .landing-page .about {
   width: 60%;
