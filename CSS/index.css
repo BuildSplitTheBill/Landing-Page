@@ -454,8 +454,8 @@ footer p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #fff;
-  background-color: #333;
+  color: white;
+  background-color: #544D55;
   font-size: 40px;
   border-radius: 50%;
   position: absolute;
@@ -465,9 +465,9 @@ footer p {
 }
 .carousel .left-button:hover,
 .carousel .right-button:hover {
-  color: #333;
+  color: #544D55;
   background-color: #fff;
-  border: 2px solid #333;
+  border: 2px solid #544D55;
 }
 .carousel .left-button {
   top: 50%;
