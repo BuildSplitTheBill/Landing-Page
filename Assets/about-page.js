@@ -15,9 +15,9 @@ class Carousel {
         images.forEach(image => image.style.display = 'none');
         this.currentIndex -= 1;
         if (this.currentIndex < 0) {
-            this.currentIndex = 3;
+            this.currentIndex = 4;
         }
-        if (this.currentIndex > 3) {
+        if (this.currentIndex > 4) {
             this.currentIndex = 0;
         }
         this.images[this.currentIndex].style.display = 'block';
@@ -27,9 +27,9 @@ class Carousel {
         images.forEach(image => image.style.display = 'none');
         this.currentIndex += 1;
         if (this.currentIndex < 0) {
-            this.currentIndex = 3;
+            this.currentIndex = 4;
         }
-        if (this.currentIndex > 3) {
+        if (this.currentIndex > 4) {
             this.currentIndex = 0;
         }
         this.images[this.currentIndex].style.display = 'block';
