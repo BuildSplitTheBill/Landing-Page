@@ -184,7 +184,20 @@ nav .main-nav-items {
   justify-content: center;
   align-items: center;
 }
-nav .main-nav-items button {
+nav .main-nav-items .nav-log-in {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+nav .main-nav-items .nav-log-in:hover {
+  text-decoration: underline;
+}
+@media (max-width: 420px) {
+  nav .main-nav-items .nav-log-in {
+    font-size: 1.5rem;
+  }
+}
+nav .main-nav-items .nav-sign-up {
   background: #544D55;
   border: 2px solid white;
   color: white;
@@ -192,22 +205,37 @@ nav .main-nav-items button {
   padding: 9px 20px;
   border-radius: 5px;
   transition: all 0.3s;
+  background: white;
+  border: 2px solid #544D55;
+  color: #544D55;
+  margin-left: 20px;
 }
-@media (max-width: 380px) {
-  nav .main-nav-items button {
+@media (max-width: 420px) {
+  nav .main-nav-items .nav-sign-up {
     font-size: 1.8rem;
   }
 }
-nav .main-nav-items button:hover {
+nav .main-nav-items .nav-sign-up:hover {
   color: #544D55;
   background-color: white;
   border-color: #544D55;
 }
-nav .main-nav-items button:focus {
+nav .main-nav-items .nav-sign-up:focus {
   outline: none;
 }
-nav .main-nav-items button:active {
+nav .main-nav-items .nav-sign-up:active {
   transform: scale(0.99);
+}
+@media (max-width: 420px) {
+  nav .main-nav-items .nav-sign-up {
+    font-size: 1.5rem;
+    padding: 10px 9px;
+  }
+}
+nav .main-nav-items .nav-sign-up:hover {
+  color: white;
+  background-color: #544D55;
+  border-color: white;
 }
 nav .main-nav-items p {
   margin-left: 15px;
@@ -218,9 +246,10 @@ nav .main-nav-items p {
     font-size: 2.6rem;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   nav .main-nav-items p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
   }
 }
 .menu-button {
@@ -408,7 +437,7 @@ nav .main-nav-items p {
   border-radius: 5px;
   transition: all 0.3s;
 }
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   .landing-page .sign-up .log-in-button {
     font-size: 1.8rem;
   }

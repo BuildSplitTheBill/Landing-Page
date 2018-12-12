@@ -8,29 +8,68 @@ nav {
     padding: 10px 20px;
     .main-nav-items {
         .justify-flex(center, center);
-        button {
-            background: @button-color;
-            border: 2px solid white;
+        .nav-log-in {
+            //.nav-button();
             color: white;
-            font-size: 2.2rem;
-            padding: 9px 20px;
-            border-radius: 5px;
-            transition: all 0.3s;
+            font-size: 2rem;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
             @media @small-mobile {
-                font-size: 1.8rem;
+                font-size: 1.5rem;
             }
         }
-        button:hover {
+        .nav-sign-up {
+            .nav-button();
+            @media @small-mobile {
+                font-size: 1.5rem;
+                padding: 10px 9px;
+            }
+            background: white;
+            border: 2px solid @button-color;
             color: @button-color;
-            background-color: white;
-            border-color: @button-color;
+            margin-left: 20px;
+            &:hover {
+                color: white;
+                background-color: @button-color;
+                border-color: white;
+            }
         }
-        button:focus {
-            outline: none;
-        }
-        button:active {
-            transform: scale(0.99);
-        }
+        // .nav-log-in {
+        //     .button-style();
+        //     border: none;
+        //     padding: 0;
+        //     &:hover {
+        //         text-decoration: underline;
+        //     }
+        // }
+        // .nav-sign-up {
+        //     .button-style-light();
+        // }
+        // button {
+        //     background: @button-color;
+        //     border: 2px solid white;
+        //     color: white;
+        //     font-size: 2.2rem;
+        //     padding: 9px 20px;
+        //     border-radius: 5px;
+        //     transition: all 0.3s;
+        //     @media @small-mobile {
+        //         font-size: 1.8rem;
+        //     }
+        // }
+        // button:hover {
+        //     color: @button-color;
+        //     background-color: white;
+        //     border-color: @button-color;
+        // }
+        // button:focus {
+        //     outline: none;
+        // }
+        // button:active {
+        //     transform: scale(0.99);
+        // }
         p {
             margin-left: 15px;
             font-size: 3.6rem;
@@ -38,7 +77,8 @@ nav {
                 font-size: 2.6rem;
             }
             @media @small-mobile {
-                font-size: 2rem;
+                font-size: 1.5rem;
+                font-weight: 700;
             }
         }
     }

@@ -3,7 +3,31 @@
     justify-content: @j-content;
     align-items: @a-items;
 }
+// Navigation buttons
+.nav-button() {
+    background: @button-color;
+    border: 2px solid white;
+    color: white;
+    font-size: 2.2rem;
+    padding: 9px 20px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    @media @small-mobile {
+        font-size: 1.8rem;
+    }
 
+&:hover {
+    color: @button-color;
+    background-color: white;
+    border-color: @button-color;
+}
+&:focus {
+    outline: none;
+}
+&:active {
+    transform: scale(0.99);
+}
+}
 // Dark button
 .button-style() {
      
