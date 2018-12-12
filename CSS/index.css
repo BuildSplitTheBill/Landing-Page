@@ -564,6 +564,9 @@ footer p {
 .biographies .bios .bio-item h2 {
   margin-bottom: 10px;
 }
+.biographies .bios .bio-item .bio-subtitle {
+  margin-bottom: 5px;
+}
 .biographies .bios .bio-item p {
   font-size: 1.8rem;
   line-height: 1.3;
