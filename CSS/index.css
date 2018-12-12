@@ -519,3 +519,9 @@ footer p {
   -ms-user-select: none;
   user-select: none;
 }
+.bios .bio-item {
+  display: none;
+}
+.bios .bio-selected {
+  display: block;
+}
