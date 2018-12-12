@@ -440,11 +440,7 @@ footer p {
   position: relative;
   overflow: hidden;
   margin-top: 16px;
-}
-@media (min-width: 1200px) {
-  .carousel {
-    width: 1200px;
-  }
+  width: 1000px;
 }
 .carousel .left-button,
 .carousel .right-button {
