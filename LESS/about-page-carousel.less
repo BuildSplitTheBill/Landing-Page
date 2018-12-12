@@ -1,6 +1,11 @@
 .biographies {
   .justify-flex(space-between);
   width: 1000px;
+  @media @mobile {
+    flex-direction: column-reverse;
+    width: 98%;
+    margin: auto;
+  }
   .carousel {
     .width-100();
     .flex(center, center);
@@ -8,6 +13,10 @@
     overflow: hidden;
     margin: 16px auto 0;
     width: 49%;
+    @media @mobile {
+      width: 98%;
+      margin-bottom: 20px;
+    }
     .left-button, .right-button {
       .flex(center);
       .no-select();
@@ -45,6 +54,9 @@
   }
 .bios {
   width: 49%;
+  @media @mobile {
+    width: 92%;
+  }
   .bio-item {
     display: none;
     h2 {

@@ -463,6 +463,12 @@ footer p {
 .about-page header {
   padding-top: 20px;
 }
+@media (max-width: 700px) {
+  .about-page header {
+    width: 92%;
+    margin: auto;
+  }
+}
 .about-page header p {
   font-size: 1.8rem;
   line-height: 1.4;
@@ -472,6 +478,13 @@ footer p {
   justify-content: space-between;
   align-items: center;
   width: 1000px;
+}
+@media (max-width: 700px) {
+  .biographies {
+    flex-direction: column-reverse;
+    width: 98%;
+    margin: auto;
+  }
 }
 .biographies .carousel {
   width: 100%;
@@ -483,6 +496,12 @@ footer p {
   overflow: hidden;
   margin: 16px auto 0;
   width: 49%;
+}
+@media (max-width: 700px) {
+  .biographies .carousel {
+    width: 98%;
+    margin-bottom: 20px;
+  }
 }
 .biographies .carousel .left-button,
 .biographies .carousel .right-button {
@@ -533,6 +552,11 @@ footer p {
 }
 .biographies .bios {
   width: 49%;
+}
+@media (max-width: 700px) {
+  .biographies .bios {
+    width: 92%;
+  }
 }
 .biographies .bios .bio-item {
   display: none;
