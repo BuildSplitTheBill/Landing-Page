@@ -1,34 +1,8 @@
-.button-style button {
-  display: block;
-  border: none;
-  margin: auto;
-  text-decoration: none;
-  background: #544D55;
-  color: white;
-  font-size: 2.2rem;
-  padding: 15px 50px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-.button-style button:hover,
-.button-style button:focus {
-  background: #6e6570;
-}
-.button-style button:focus {
-  outline: none;
-}
-.button-style button:active {
-  transform: scale(0.99);
-}
 .width-100 {
   width: 100%;
 }
 .border-bottom-grey {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #544D55;
 }
 .no-select {
   -webkit-touch-callout: none;
@@ -397,7 +371,7 @@ nav .main-nav-items p {
   margin: 20px auto;
   text-align: center;
 }
-.landing-page .sign-up button {
+.landing-page .sign-up .sign-up-button {
   display: block;
   border: none;
   margin: auto;
@@ -413,14 +387,41 @@ nav .main-nav-items p {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-.landing-page .sign-up button:hover,
-.landing-page .sign-up button:focus {
+.landing-page .sign-up .sign-up-button:hover,
+.landing-page .sign-up .sign-up-button:focus {
   background: #6e6570;
 }
-.landing-page .sign-up button:focus {
+.landing-page .sign-up .sign-up-button:focus {
   outline: none;
 }
-.landing-page .sign-up button:active {
+.landing-page .sign-up .sign-up-button:active {
+  transform: scale(0.99);
+}
+.landing-page .sign-up .log-in-button {
+  background: white;
+  border: 2px solid #544D55;
+  display: block;
+  margin: auto;
+  color: #544D55;
+  font-size: 2.2rem;
+  padding: 15px 50px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+@media (max-width: 380px) {
+  .landing-page .sign-up .log-in-button {
+    font-size: 1.8rem;
+  }
+}
+.landing-page .sign-up .log-in-button:hover {
+  color: white;
+  background-color: #544D55;
+  border-color: #544D55;
+}
+.landing-page .sign-up .log-in-button:focus {
+  outline: none;
+}
+.landing-page .sign-up .log-in-button:active {
   transform: scale(0.99);
 }
 footer {
