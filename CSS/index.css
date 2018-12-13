@@ -281,6 +281,9 @@ nav .main-nav-items p {
 .menu--open {
   left: 0;
 }
+.landing-page .hidden {
+  opacity: 0;
+}
 .landing-page header {
   display: flex;
   justify-content: space-around;

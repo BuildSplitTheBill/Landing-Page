@@ -3,11 +3,10 @@ class Carousel {
        this.carousel = carousel;
        this.leftButton = document.querySelector('.left-button')
        this.rightButton = document.querySelector('.right-button')
-       this.images = document.querySelectorAll('.carousel img')
+       this.images = document.querySelectorAll('.carousel img');
        this.currentIndex = 0;
        this.currentImage = this.images[this.currentIndex];
        this.currentImage.style.display = 'block';
-       //NEW STUFF
        this.bios = document.querySelectorAll('.bio-item');
        this.currentBio = this.bios[this.currentIndex];
        this.leftButton.addEventListener('click', () => this.previousImage());
