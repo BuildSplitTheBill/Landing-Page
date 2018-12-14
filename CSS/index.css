@@ -198,6 +198,7 @@ nav .main-nav-items .nav-log-in:hover {
   }
 }
 nav .main-nav-items .nav-sign-up {
+  text-decoration: none;
   background: #544D55;
   border: 2px solid white;
   color: white;
