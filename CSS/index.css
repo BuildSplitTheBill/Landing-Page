@@ -405,6 +405,7 @@ nav .main-nav-items p {
   text-align: center;
 }
 .landing-page .sign-up .sign-up-button {
+  width: 300px;
   display: block;
   border: none;
   margin: auto;
@@ -431,6 +432,9 @@ nav .main-nav-items p {
   transform: scale(0.99);
 }
 .landing-page .sign-up .log-in-button {
+  text-decoration: none;
+  width: 300px;
+  text-align: center;
   background: white;
   border: 2px solid #544D55;
   display: block;
